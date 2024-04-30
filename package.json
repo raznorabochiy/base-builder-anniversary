@@ -1,0 +1,29 @@
+{
+  "name": "base-builder-anniversary",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx touch keys.txt proxy.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "cli-progress": "^3.12.0",
+    "ethers": "^6.11.1",
+    "https-proxy-agent": "^7.0.4",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2",
+    "touch": "^3.1.0",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/cli": "^0.11.25",
+    "@types/cli-progress": "^3.11.5",
+    "@types/lodash": "^4.17.0"
+  }
+}
